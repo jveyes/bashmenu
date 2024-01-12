@@ -1,23 +1,30 @@
-#!/bin/bash
-
 # Function to display the menu
 display_menu() {
-    echo "1. Execute Command 1"
-    echo "2. Execute Command 2"
-    echo "3. Execute Command 3"
-    echo "4. Exit"
+    clear
+    echo "╭─────────────────────────────╮"
+    echo "│ 1. Clear / Exit             │"
+    echo "│ 2. Execute Command 2        │"
+    echo "│ 3. Execute Command 3        │"
+    echo "│ 4. Exit                     │"
+    echo "╰─────────────────────────────╯"
 }
 
 # Function to execute command 1
 execute_command1() {
-    echo "Executing Command 1"
-    # Add your command here
+    echo ""
+    #echo whoami >> $user
+    cat ~/.bashrc1
+    #d -p "INGRESE RUTA DEL PERFIL: " profile
+    #echo "Executing Command 1 with parameter: $profile"
+    echo 'alias e="exit"' >> ~/.bashrc1 && echo 'alias e="exit"' >> ~/.bash_profile1 && echo 'alias e="exit"' >> ~/.profile1 && echo 'alias e="exit"' >> ~/.zshrc1
+    
 }
 
 # Function to execute command 2
 execute_command2() {
-    echo "Executing Command 2"
-    # Add your command here
+    read -p "Enter a value for Command 2: " param
+    echo "Executing Command 2 with parameter: $param"
+    # Add your command here using $param
 }
 
 # Function to execute command 3
@@ -31,6 +38,10 @@ while true; do
     display_menu
 
     read -p "Enter your choice (1-4): " choice
+
+    echo "╭─────────────────────────────────────────────╮"
+    echo "│ THE TASK HAS STARTED RUNNING                │"
+    echo "╰─────────────────────────────────────────────╯"
 
     case $choice in
         1)
@@ -51,5 +62,9 @@ while true; do
             ;;
     esac
 
+    echo ""
+    echo "╭─────────────────────────────────────────────╮"
+    echo "│ THE TASK HAS FINISHED RUNNING               │"
+    echo "╰─────────────────────────────────────────────╯"
     read -p "Press Enter to continue..."
 done

@@ -11,7 +11,7 @@ This is a simple Bash script that serves as a menu to execute different commands
 
 2. **Navigate to the Directory:**
     ```bash
-    cd <bashjmv>
+    cd bashjmv
     ```
 
 3. **Make the Script Executable:**

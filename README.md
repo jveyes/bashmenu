@@ -6,22 +6,22 @@ This is a simple Bash script that serves as a menu to execute different commands
 
 1. **Clone the Repository:**
     ```bash
-    git clone https://github.com/your-username/your-repository.git
+    git clone https://github.com/<your-username>/bashjmv.git
     ```
 
 2. **Navigate to the Directory:**
     ```bash
-    cd your-repository
+    cd <bashjmv>
     ```
 
 3. **Make the Script Executable:**
     ```bash
-    chmod +x menu_script.sh
+    chmod +x jmv.sh
     ```
 
 4. **Run the Script:**
     ```bash
-    ./menu_script.sh
+    ./jmv.sh
     ```
 
 5. **Follow the On-Screen Menu:**

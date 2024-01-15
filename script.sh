@@ -7,27 +7,30 @@ display_menu() {
     # Clears the terminal screen
     clear
     # Displays a formatted menu with numbered options
-    echo "╭─────────────────────────────╮"
-    echo "│ 1. Execute Command 1        │"
-    echo "│ 2. Execute Command 2        │"
-    echo "│ 3. Execute Command 3        │"
-    echo "│ 4. Exit                     │"
-    echo "╰─────────────────────────────╯"
+    echo "╭─────────────────────────────────────────────╮"
+    echo "│ 1. Execute Command 1 (shows local user)     │"
+    echo "│ 2. Execute Command 2 (reads name)           │"
+    echo "│ 3. Execute Command 3 (shows disk info)      │"
+    echo "│ 4. Exit                                     │"
+    echo "╰─────────────────────────────────────────────╯"
 }
 
 # Function to execute command 1
 execute_command1() {
     # Displays a message indicating the execution of Command 1
-    echo "Executing Command 1"
+    echo "Executing Command 1..."
+    echo -n "Your local username is: " 
+    whoami
     # Add your command(s) here
 }
 
 # Function to execute command 2
 execute_command2() {
     # Prompts the user to enter a value for Command 2
-    read -p "Enter a value for Command 2: " param
+    echo "Executing Command 2..."
+    read -p "Enter a your name: " name
     # Displays a message indicating the execution of Command 2 with the provided parameter
-    echo -e "Executing Command 2 with parameter: [\e[31m\e[1m$param\e[31m\e[0m]"
+    echo -e "Executing Command 2 with parameter (name): [\e[31m\e[1m$name\e[31m\e[0m]"
     # Add your command(s) here using $param
 }
 
@@ -35,6 +38,7 @@ execute_command2() {
 execute_command3() {
     # Displays a message indicating the execution of Command 3
     echo "Executing Command 3"
+    df -h | column -t
     # Add your command(s) here
 }
 

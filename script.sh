@@ -27,6 +27,18 @@ display_menu() {
     echo "╰─────────────────────────────────────────────╯"
 }
 
+# Function to display the menu without frames (please remove the first # in each line, this in order to use it)
+#display_menu() {
+#    # Clears the terminal screen
+#    clear
+#    # Displays a formatted menu with numbered options
+#    echo "1. Execute Command 1 (shows local user)"
+#    echo "2. Execute Command 2 (reads name)"
+#    echo "3. Execute Command 3 (shows disk info)"
+#    echo "4. Exit"
+#}
+
+
 # Function to execute command 1
 execute_command1() {
     # Displays a message indicating the execution of Command 1

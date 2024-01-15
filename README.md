@@ -42,14 +42,11 @@ This Bash script provides a simple interactive menu with three commands and an o
 ![Command 2](images/command_2.png)
 4. **execute_command3():** Executes Command 3 and displays a message.
 ![Command 3](images/command_3.png)
-5. **task_started():** Displays a message indicating the start of the task.
-![Task started](images/task_started.png)
-6. **task_ended():** Displays a message indicating the end of the task.
-![Task ended](images/task_ended.png)
    
 ### Main Loop
 
 - The script contains a main loop that displays the menu, reads user input, and executes the corresponding function based on the choice.
+
 ![Display menu](images/loop_menu_code.png)
 
 ## Customize

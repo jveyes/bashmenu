@@ -13,19 +13,19 @@ This Bash script provides a simple interactive menu with three commands and an o
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/your-repository.git
+    git clone https://github.com/jveyes/bashjmv.git
     ```
 
 2. Navigate to the script directory:
 
     ```bash
-    cd your-repository
+    cd bashjmv
     ```
 
 3. Run the script:
 
     ```bash
-    bash menu_script.sh
+    bash script.sh
     ```
 
 4. Follow the on-screen instructions to navigate the menu.
@@ -50,6 +50,31 @@ This Bash script provides a simple interactive menu with three commands and an o
 - You can customize the commands executed in `execute_command1()`, `execute_command2()`, and `execute_command3()` by adding your own commands.
 
 - Adjust colors, formatting, or messages based on your preferences.
+
+In ANSI escape codes, you can use special sequences to add color to text in the terminal. Here's a quick reference for some common colors:
+
+Black: \e[30m
+Red: \e[31m
+Green: \e[32m
+Yellow: \e[33m
+Blue: \e[34m
+Magenta: \e[35m
+Cyan: \e[36m
+White: \e[37m
+For brighter variations, you can use:
+
+Bright Black (Gray): \e[90m
+Bright Red: \e[91m
+Bright Green: \e[92m
+Bright Yellow: \e[93m
+Bright Blue: \e[94m
+Bright Magenta: \e[95m
+Bright Cyan: \e[96m
+Bright White: \e[97m
+Usage
+To apply color to your text, use the respective escape code before your text and \e[0m at the end to reset the color.
+
+Example:
 
 ## Contributing
 

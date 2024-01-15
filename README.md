@@ -37,12 +37,15 @@ This Bash script, tailored for Linux servers, provides a simple interactive menu
 1. **display_menu():** Displays a formatted menu with numbered options.
 
 ![Display menu](images/loop_menu.png)
+
 2. **execute_command1():** Executes Command 1 and displays a message (example code reads your linux local username).
 
 ![Command 1](images/command_1.png)
+
 3. **execute_command2():** Prompts the user for a parameter, executes Command 2, and displays a message.
 
 ![Command 2](images/command_2.png)
+
 4. **execute_command3():** Executes Command 3 and displays a message.
 
 ![Command 3](images/command_3.png)

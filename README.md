@@ -51,7 +51,7 @@ This Bash script provides a simple interactive menu with three commands and an o
 
 - Adjust colors, formatting, or messages based on your preferences.
 
-# ANSI Escape Codes for Text Colors
+## ANSI Escape Codes for Text Colors
 
 In ANSI escape codes, you can use special sequences to add color to text in the terminal. Here's a quick reference for some common colors:
 

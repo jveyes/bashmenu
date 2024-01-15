@@ -1,3 +1,14 @@
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
+[![MIT License][license-shield]][[license-url](https://opensource.org/license/mit/)]
+[![LinkedIn][linkedin-shield]][[linkedin-url](https://www.linkedin.com/in/jesusvillalobos/)]
+
 # Bash Script Menu
 
 This Bash script, tailored for Linux servers, provides a simple interactive menu with three commands and an option to exit. Each command is executed within the script, and the user is guided through the process. The script is designed with minimalism in mind, offering a condensed and clean interface for those who prefer simplicity. Additionally, colorful and formatted messages are incorporated for an enhanced user experience. Feel free to modify it as you need.

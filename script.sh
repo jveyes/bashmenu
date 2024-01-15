@@ -38,7 +38,6 @@ display_menu() {
 #    echo "4. Exit"
 #}
 
-
 # Function to execute command 1
 execute_command1() {
     # Displays a message indicating the execution of Command 1

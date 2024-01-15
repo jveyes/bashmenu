@@ -1,6 +1,18 @@
 #!/bin/bash
 
-# Bash Script Documentation
+################################################################################
+# Bash Script Information
+# -----------------------
+# Description: This Bash script provides an interactive menu with three
+#              commands and an option to exit. The commands demonstrate
+#              different functionalities, such as displaying local user
+#              information, reading a name, and showing disk information.
+# Date:        January 15, 2024
+# Creator:     JESUS VILLALOBOS (inspired by assistance from OpenAI's GPT-3)
+# Version:     1.0
+# License:     MIT License
+################################################################################
+
 
 # Function to display the menu
 display_menu() {

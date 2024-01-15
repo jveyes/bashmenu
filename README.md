@@ -49,8 +49,6 @@ This Bash script provides a simple interactive menu with three commands and an o
 
 - You can customize the commands executed in `execute_command1()`, `execute_command2()`, and `execute_command3()` by adding your own commands.
 
-- Adjust colors, formatting, or messages based on your preferences.
-
 ### ANSI Escape Codes for Text Colors
 
 In ANSI escape codes, you can use special sequences to add color to text in the terminal. Here's a quick reference for some common colors:

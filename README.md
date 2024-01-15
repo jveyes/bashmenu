@@ -83,6 +83,7 @@ Example:
 
 ```bash
 echo -e "\e[91mThis text is in bright red\e[0m"
+```
 
 
 ## Contributing

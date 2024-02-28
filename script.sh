@@ -10,7 +10,7 @@
 # Date:        January 15, 2024
 # Creator:     JESUS VILLALOBOS (inspired by assistance from OpenAI's GPT-3)
 # Version:     1.0
-# License:     MIT License
+# License:     MIT License 
 ################################################################################
 
 

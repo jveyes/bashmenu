@@ -24,6 +24,7 @@ menu_options=(
 # Function to display the menu
 display_menu() {
   clear
+  # The max number og characters is 49 for the top line; please modify as you need just by adding this char ─
   echo "╭───────────────────────────────────────────────╮"
   max_length=0
   # Find the maximum length of menu options
@@ -42,6 +43,7 @@ display_menu() {
     # Construct the menu option with proper padding
     printf "│ %-3s%-$(($menu_width))s │\n" "$((i+1))." "$option"
   done
+  # The max number og characters is 49 for the bottom line; please modify as you need just by adding this char ─
   echo "╰───────────────────────────────────────────────╯"
 }
 

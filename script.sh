@@ -13,18 +13,36 @@
 # License:     MIT License
 ################################################################################
 
+# Array to store the menu options
+menu_options=(
+    "Execute Command 1 (shows local user)"
+    "Execute Command 2 (reads name)"
+    "Execute Command 3 (shows disk info)"
+    "Exit"
+)
 
 # Function to display the menu
 display_menu() {
-    # Clears the terminal screen
-    clear
-    # Displays a formatted menu with numbered options
-    echo "╭─────────────────────────────────────────────╮"
-    echo "│ 1. Execute Command 1 (shows local user)     │"
-    echo "│ 2. Execute Command 2 (reads name)           │"
-    echo "│ 3. Execute Command 3 (shows disk info)      │"
-    echo "│ 4. Exit                                     │"
-    echo "╰─────────────────────────────────────────────╯"
+  clear
+  echo "╭───────────────────────────────────────────────╮"
+  max_length=0
+  # Find the maximum length of menu options
+  for option in "${menu_options[@]}"; do
+    length=${#option}
+    if (( length > max_length )); then
+      max_length=$length
+    fi
+  done
+
+  # Calculate the width of the menu option
+  menu_width=$((max_length + 6)) # Add space for option number and padding
+
+  for i in "${!menu_options[@]}"; do
+    option="${menu_options[$i]}"
+    # Construct the menu option with proper padding
+    printf "│ %-3s%-$(($menu_width))s │\n" "$((i+1))." "$option"
+  done
+  echo "╰───────────────────────────────────────────────╯"
 }
 
 # Function to display the menu without frames (please remove the first # in each line, this in order to use it)

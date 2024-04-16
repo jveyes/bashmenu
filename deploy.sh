@@ -10,4 +10,3 @@ ssh "$SERVER" "cd '$REMOTE_PATH' && git pull"
 git add .
 git commit -m "$(date +"%Y-%m-%d %H:%M:%S")"
 git push
-echo $(date +"%Y-%m-%d %H:%M:%S")

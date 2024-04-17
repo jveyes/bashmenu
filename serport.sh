@@ -21,12 +21,12 @@ display_progress_bar() {
 display_status() {
     local color=$1
     local message=$2
-    local frame_length=${#message} 
-    local frame_char="-"
+    local frame_length=$((${#message} + 4))
+    local frame_char="─"
 
-    printf "\e[1;${color}m┌%s┐\n" "${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}\n"
-    printf "\e[1;${color}m│ %s │\n" "$message"
-    printf "\e[1;${color}m└%s┘\n\e[0m" "${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}\n"
+    printf "\e[1;${color}m┌$( printf '%*s' "$frame_length" | tr ' ' "$frame_char")┐\n" ""
+    printf "\e[1;${color}m│  %s  │\n" "$message"
+    printf "\e[1;${color}m└$( printf '%*s' "$frame_length" | tr ' ' "$frame_char")┘\n\e[0m" ""
 }
 
 # Change to the local repository directory

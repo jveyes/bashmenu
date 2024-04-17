@@ -21,20 +21,21 @@ display_progress_bar() {
 cd "$LOCAL_PATH"
 
 # Add and commit the changes
-echo -e "\e[1;34mAdding all changes...\e[0m"
+echo -e "\e[1;34mAdding all changes to the local server...\e[0m"
 git add .
 echo -e "\e[1;32mCommitting changes with timestamp...\e[0m"
 git commit -m "$(date +"%Y-%m-%d %H:%M:%S")"
+git push
 
 # Push the changes to the remote repository
-echo -e "\e[1;34mPushing changes to the remote repository...\e[0m"
+echo -e "\e[1;34mPushing changes to the github repository...\e[0m"
 for i in {1..100}; do
     display_progress_bar $i
     sleep 0.05
 done
-echo -e "\e[1;32mPush successful!\e[0m"
+echo -e "\e[1;32mPush successful to github!\e[0m"
 
 # Pull the changes on the remote repository
-echo -e "\e[1;34mPulling changes on the remote repository...\e[0m"
+echo -e "\e[1;34mPulling changes from the github repository...\e[0m"
 ssh "$SERVER" "cd '$REMOTE_PATH' && git pull"
-echo -e "\e[1;32mPull successful!\e[0m"
+echo -e "\e[1;32mPull successful from github!\e[0m"

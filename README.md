@@ -13,13 +13,13 @@ This Bash script, tailored for Linux servers, provides a simple interactive menu
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/jveyes/bashjmv.git
+    git clone https://github.com/jveyes/bashmenu.git
     ```
 
 2. Navigate to the script directory:
 
     ```bash
-    cd bashjmv
+    cd bashmenu
     ```
 
 3. Run the script:

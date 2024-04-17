@@ -17,11 +17,24 @@ display_progress_bar() {
            $progress
 }
 
+# Function to display status messages with colors and a frame
+display_status() {
+    local color=$1
+    local message=$2
+    local frame_length=${#message} 
+    local frame_char="-"
+
+    printf "\e[1;${color}m┌%s┐\n" "${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}\n"
+    printf "\e[1;${color}m│ %s │\n" "$message"
+    printf "\e[1;${color}m└%s┘\n\e[0m" "${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}\n"
+}
+
 # Change to the local repository directory
 cd "$LOCAL_PATH"
 
 # Add and commit the changes
 echo -e "\e[1;34mAdding all changes to the local server...\e[0m"
+display_status 34 "Adding all changes to the local server..."
 git add .
 echo -e "\e[1;32mCommitting changes with timestamp...\e[0m"
 git commit -m "$(date +"%Y-%m-%d %H:%M:%S")"

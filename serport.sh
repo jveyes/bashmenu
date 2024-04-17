@@ -36,27 +36,25 @@ display_status() {
 cd "$LOCAL_PATH"
 
 # Add and commit the changes
-echo -e "\e[1;34mAdding all changes to the local server...\e[0m"
-display_status 32 "Adding all changes to the local server..."
+display_status 34 "Adding all changes to the local server..."
 git add .
-echo -e "\e[1;32mCommitting changes with timestamp...\e[0m"
 display_status 34 "Committing changes with timestamp..."
 git commit -m "$(date +"%Y-%m-%d %H:%M:%S")"
 git push
 
 # Push the changes to the remote repository
-echo -e "\e[1;34mPushing changes to the github repository...\e[0m"
+display_status 34 "Pushing changes to the github repository..."
 for i in {1..100}; do
     display_progress_bar $i
     sleep 0.05
 done
-echo -e "\e[1;32mPush successful to github!\e[0m"
+display_status 34 "Push successful to github!"
 
 # Pull the changes on the remote repository
-echo -e "\e[1;34mPulling changes from the github repository...\e[0m"
+display_status 34 "Pulling changes from the github repository..."
 ssh "$SERVER" "cd '$REMOTE_PATH' && git pull"
 for i in {1..100}; do
     display_progress_bar $i
     sleep 0.05
 done
-echo -e "\e[1;32mPull successful from github!\e[0m"
+display_status 34 "Pull successful from github!"

@@ -24,9 +24,9 @@ display_status() {
     local frame_length=$((${#message} + 4))
     local frame_char="─"
 
-    printf "\e[1;${color}m┌$( printf '%*s' "$frame_length" | tr ' ' "$frame_char")┐\n" ""
-    printf "\e[1;${color}m│  %s  │\n" "$message"
-    printf "\e[1;${color}m└$( printf '%*s' "$frame_length" | tr ' ' "$frame_char")┘\n\e[0m" ""
+    printf "\e[1;${color}m╭$( printf '%*s' "$frame_length" | tr ' ' "$frame_char")╮\n" ""
+    printf "\e[1;${color}m│ %s │\n" "$message"
+    printf "\e[1;${color}m╰$( printf '%*s' "$frame_length" | tr ' ' "$frame_char")╯\n\e[0m" ""
 }
 
 # Change to the local repository directory

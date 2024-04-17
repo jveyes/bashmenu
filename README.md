@@ -1,16 +1,16 @@
 ## Table of Contents
-- [Bash Menu Script for Linux Servers 🖥️](#bash-menu-script-for-linux-servers-)
-- [Features ✨](#features-)
-- [Installation and Usage 🚀](#installation-and-usage-)
-  - [Requirements 🔍](#requirements-)
-  - [How to Run 🏃‍♀️](#how-to-run-)
-- [Script Overview 🔍](#script-overview-)
-  - [Functions 🚀](#functions-)
-  - [Main Loop 🔄](#main-loop-)
-- [Customization 🛠️](#customization-)
-  - [ANSI Escape Codes for Text Colors 🎨](#ansi-escape-codes-for-text-colors-)
-- [Contributing 🤝](#contributing-)
-- [License 📜](#license-)
+- [Bash Menu Script for Linux Servers 🖥️](#bash-menu-script-for-linux-servers)
+- [Features ✨](#features)
+- [Installation and Usage 🚀](#installation-and-usage)
+  - [Requirements 🔍](#requirements)
+  - [How to Run 🏃‍♀️](#how-to-run)
+- [Script Overview 🔍](#script-overview)
+  - [Functions 🚀](#functions)
+  - [Main Loop 🔄](#main-loop)
+- [Customization 🛠️](#customization)
+  - [ANSI Escape Codes for Text Colors 🎨](#ansi-escape-codes-for-text-colors)
+- [Contributing 🤝](#contributing)
+- [License 📜](#license)
 
 # Bash Menu Script for Linux Servers
 

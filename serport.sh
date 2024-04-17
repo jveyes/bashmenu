@@ -17,25 +17,32 @@ display_progress_bar() {
            $progress
 }
 
+# Function to display status messages with colors
+display_status() {
+    local color=$1
+    local message=$2
+    printf "\e[1;${color}m%s\e[0m\n" "$message"
+}
+
 # Change to the local repository directory
 cd "$LOCAL_PATH"
 
 # Add and commit the changes
-echo -e "\e[1;34mAdding all changes to the local server...\e[0m"
+display_status 34 "Adding all changes to the local server..."
 git add .
-echo -e "\e[1;32mCommitting changes with timestamp...\e[0m"
+display_status 32 "Committing changes with timestamp..."
 git commit -m "$(date +"%Y-%m-%d %H:%M:%S")"
-git push
 
 # Push the changes to the remote repository
-echo -e "\e[1;34mPushing changes to the github repository...\e[0m"
-for i in {1..100}; do
-    display_progress_bar $i
-    sleep 0.05
-done
-echo -e "\e[1;32mPush successful to github!\e[0m"
+display_status 34 "Pushing changes to the GitHub repository..."
+git push
+display_status 32 "Push successful to GitHub!"
 
 # Pull the changes on the remote repository
-echo -e "\e[1;34mPulling changes from the github repository...\e[0m"
+display_status 34 "Pulling changes from the GitHub repository..."
 ssh "$SERVER" "cd '$REMOTE_PATH' && git pull"
-echo -e "\e[1;32mPull successful from github!\e[0m"
+display_status 32 "Pull successful from GitHub!"
+
+# Display the Git log
+display_status 34 "Recent Git commits:"
+git log --oneline -5

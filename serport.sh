@@ -38,4 +38,8 @@ echo -e "\e[1;32mPush successful to github!\e[0m"
 # Pull the changes on the remote repository
 echo -e "\e[1;34mPulling changes from the github repository...\e[0m"
 ssh "$SERVER" "cd '$REMOTE_PATH' && git pull"
+for i in {1..100}; do
+    display_progress_bar $i
+    sleep 0.05
+done
 echo -e "\e[1;32mPull successful from github!\e[0m"

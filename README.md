@@ -1,8 +1,15 @@
-# Bash Script Menu
+# Bash Menu Script for Linux Servers
 
-This Bash script, tailored for Linux servers, provides a simple interactive menu with three commands and an option to exit. Each command is executed within the script, and the user is guided through the process. The script is designed with minimalism in mind, offering a condensed and clean interface for those who prefer simplicity. Additionally, colorful and formatted messages are incorporated for an enhanced user experience. Feel free to modify it as you need.
+This Bash script provides a simple interactive menu with three customizable commands and an option to exit. Each command is executed within the script, and the user is guided through the process. The script is designed with minimalism in mind, offering a condensed and clean interface for those who prefer simplicity. Additionally, colorful and formatted messages are incorporated for an enhanced user experience.
 
-## Usage
+## Features
+
+- Interactive menu with numbered options
+- Execution of custom commands within the script
+- Colorful and formatted output for improved readability
+- Easily customizable commands and functionality
+
+## Installation and Usage
 
 ### Requirements
 
@@ -12,10 +19,10 @@ This Bash script, tailored for Linux servers, provides a simple interactive menu
 
 1. Clone the repository:
 
-    ```bash
-    git clone https://github.com/jveyes/bashmenu.git
-    ```
-
+   ```bash
+   git clone https://github.com/jveyes/bashmenu.git
+   ```
+   
 2. Navigate to the script directory:
 
     ```bash

@@ -1,9 +1,12 @@
+# Bash Menu Script for Linux Servers
+
+This Bash script provides a simple interactive menu with three customizable commands and an option to exit. Each command is executed within the script, and the user is guided through the process. The script is designed with minimalism in mind, offering a condensed and clean interface for those who prefer simplicity. Additionally, colorful and formatted messages are incorporated for an enhanced user experience.
+
 ## Table of Contents
-- [Bash Menu Script for Linux Servers 🖥️](#bash-menu-script-for-linux-servers)
 - [Features ✨](#features)
 - [Installation and Usage 🚀](#installation-and-usage)
   - [Requirements 🔍](#requirements)
-  - [How to Run 🏃‍♀️](#how-to-run)
+  - [How to Run 🏃♀️](#how-to-run)
 - [Script Overview 🔍](#script-overview)
   - [Functions 🚀](#functions)
   - [Main Loop 🔄](#main-loop)
@@ -11,10 +14,6 @@
   - [ANSI Escape Codes for Text Colors 🎨](#ansi-escape-codes-for-text-colors)
 - [Contributing 🤝](#contributing)
 - [License 📜](#license)
-
-# Bash Menu Script for Linux Servers
-
-This Bash script provides a simple interactive menu with three customizable commands and an option to exit. Each command is executed within the script, and the user is guided through the process. The script is designed with minimalism in mind, offering a condensed and clean interface for those who prefer simplicity. Additionally, colorful and formatted messages are incorporated for an enhanced user experience.
 
 ## Features
 

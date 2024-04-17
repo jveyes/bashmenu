@@ -22,7 +22,7 @@ display_status() {
     local color=$1
     local message=$2
     local frame_length=$((${#message} + 4))
-    local frame_char="-"
+    local frame_char="─"
 
     tput bold
     tput setaf "$color"

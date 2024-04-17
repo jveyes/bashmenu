@@ -37,9 +37,10 @@ cd "$LOCAL_PATH"
 
 # Add and commit the changes
 echo -e "\e[1;34mAdding all changes to the local server...\e[0m"
-display_status 34 "Adding all changes to the local server"
+display_status 34 "\e[1;34mAdding all changes to the local server...\e[0m"
 git add .
 echo -e "\e[1;32mCommitting changes with timestamp...\e[0m"
+display_status 34 "\e[1;32mCommitting changes with timestamp...\e[0m"
 git commit -m "$(date +"%Y-%m-%d %H:%M:%S")"
 git push
 

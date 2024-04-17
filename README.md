@@ -49,7 +49,7 @@ This Bash script, tailored for Linux servers, provides a simple interactive menu
 4. **execute_command3():** Executes Command 3 and displays a message.
 
 ![Command 3](images/command_3.png)
-   
+
 ### Main Loop
 
 - The script contains a main loop that displays the menu, reads user input, and executes the corresponding function based on the choice.

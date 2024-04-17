@@ -32,6 +32,7 @@ display_status 34 "Adding all changes to the local server..."
 git add .
 display_status 32 "Committing changes with timestamp..."
 git commit -m "$(date +"%Y-%m-%d %H:%M:%S")"
+git push
 
 # Push the changes to the remote repository
 display_status 34 "Pushing changes to the GitHub repository..."
@@ -42,7 +43,3 @@ display_status 32 "Push successful to GitHub!"
 display_status 34 "Pulling changes from the GitHub repository..."
 ssh "$SERVER" "cd '$REMOTE_PATH' && git pull"
 display_status 32 "Pull successful from GitHub!"
-
-# Display the Git log
-display_status 34 "Recent Git commits:"
-git log --oneline -5

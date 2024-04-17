@@ -17,11 +17,16 @@ display_progress_bar() {
            $progress
 }
 
-# Function to display status messages with colors
+# Function to display status messages with colors and a frame
 display_status() {
     local color=$1
     local message=$2
-    printf "\e[1;${color}m%s\e[0m\n" "$message"
+    local frame_length=${#message} 
+    local frame_char="-"
+
+    printf "\e[1;${color}m┌%s┐\n" "${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}\n"
+    printf "\e[1;${color}m│ %s │\n" "$message"
+    printf "\e[1;${color}m└%s┘\n\e[0m" "${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}${frame_char}\n"
 }
 
 # Change to the local repository directory
@@ -32,11 +37,13 @@ display_status 34 "Adding all changes to the local server..."
 git add .
 display_status 32 "Committing changes with timestamp..."
 git commit -m "$(date +"%Y-%m-%d %H:%M:%S")"
-git push
 
 # Push the changes to the remote repository
 display_status 34 "Pushing changes to the GitHub repository..."
-git push
+for i in {1..100}; do
+    display_progress_bar $i
+    sleep 0.05
+done
 display_status 32 "Push successful to GitHub!"
 
 # Pull the changes on the remote repository

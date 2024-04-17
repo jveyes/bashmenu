@@ -27,7 +27,8 @@ display_status() {
     tput bold
     tput setaf "$color"
     echo "╭──────────────────────────────────────────────────────────╮"
-    printf "│ %s │\n" "$message"
+    #printf "│ %s │\n" "$message"
+    printf "│ %-*s │\n" $frame_length "$message"
     echo "╰──────────────────────────────────────────────────────────╯"
     tput sgr0
 }

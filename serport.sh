@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set the server details
-SERVER="ubuntu@test.jemavi.co"
+SERVER="ubuntu@got.jemavi.co"
 REMOTE_PATH="/home/ubuntu/got/bashmenu"
 LOCAL_PATH="/home/stk/GIT/bashmenu"
 

@@ -8,7 +8,7 @@ LOCAL_PATH="/home/stk/GIT/bashmenu"
 # Function to display a progress bar
 display_progress_bar() {
     local progress=$1
-    local total_length=20
+    local total_length=40
     local filled_length=$((total_length * progress / 100))
     local empty_length=$((total_length - filled_length))
 

@@ -24,17 +24,10 @@ display_progress_bar() {
     local filled_length=$((total_length * progress / 100))
     local empty_length=$((total_length - filled_length))
 
-    local filled_color="\e[1;32m" # Bright green
-    local empty_color="\e[0;90m" # Dark gray
-    local reset="\e[0m"
-
     if [ -z "$message" ]; then
-        printf "\r[%s%s%s%s%s] %3d%%\r" \
-            "$filled_color" \
+        printf "\r[%s%s] %3d%%\r" \
             "$(printf '━%.0s' $(seq 1 $filled_length))" \
-            "$empty_color" \
             "$(printf '━%.0s' $(seq 1 $empty_length))" \
-            "$reset" \
             $progress
     else
         local message_length=${#message}
@@ -42,15 +35,13 @@ display_progress_bar() {
         local filled_for_message=$((remaining_length * progress / 100))
         local empty_for_message=$((remaining_length - filled_for_message))
 
-        printf "\r[%s%s%s%s%s] %s\r" \
-            "$filled_color" \
+        printf "\r[%s%s] %s\r" \
             "$(printf '━%.0s' $(seq 1 $filled_for_message))" \
-            "$empty_color" \
             "$(printf '━%.0s' $(seq 1 $empty_for_message))" \
-            "$reset" \
             "$message"
     fi
 }
+
 # Function to display status messages with colors
 display_status() {
     local color=$1

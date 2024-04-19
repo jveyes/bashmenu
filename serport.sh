@@ -35,7 +35,6 @@ display_progress_bar() {
 
 
 
-
 # Function to display status messages with colors
 display_status() {
     local color=$1

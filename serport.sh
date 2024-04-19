@@ -24,10 +24,24 @@ display_progress_bar() {
     local filled_length=$((total_length * progress / 100))
     local empty_length=$((total_length - filled_length))
 
+    local filled_color="\e[32m" # Green
+    local empty_color="\e[90m" # Dark gray
+    local reset="\e[0m"
+
     if [ -z "$message" ]; then
-        echo -ne "\r[$(printf '━%.0s' $(seq 1 $filled_length))$(printf '─%.0s' $(seq 1 $empty_length))] $progress%"
+        printf "\r[%s%s%s%s] %3d%%\r" \
+            "$filled_color" \
+            "$(printf '━%.0s' $(seq 1 $filled_length))" \
+            "$empty_color" \
+            "$(printf '─%.0s' $(seq 1 $empty_length))" \
+            "$progress"
     else
-        echo -ne "\r[$(printf '━%.0s' $(seq 1 $filled_length))$(printf '─%.0s' $(seq 1 $empty_length))] $message"
+        printf "\r[%s%s%s%s] %s\r" \
+            "$filled_color" \
+            "$(printf '━%.0s' $(seq 1 $filled_length))" \
+            "$empty_color" \
+            "$(printf '─%.0s' $(seq 1 $empty_length))" \
+            "$message"
     fi
 }
 

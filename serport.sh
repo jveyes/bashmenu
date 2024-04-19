@@ -19,8 +19,8 @@ display_progress_bar2() {
 
 display_progress_bar() {
     local progress=$1
-    local message="${1:-}"
-    local total_length=40
+    local message="${2:-}"
+    local total_length=39
     local filled_length=$((total_length * progress / 100))
     local empty_length=$((total_length - filled_length))
 

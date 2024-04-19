@@ -26,11 +26,11 @@ display_progress_bar() {
 
     if [ -z "$message" ]; then
         printf "\r[%-${total_length}s] %3d%%\r" \
-            "$(printf '━%.0s' $(seq 1 $filled_length))$(printf '━%.0s' $(seq 1 $empty_length))" \
+            "$(printf '━%.0s' $(seq 1 $filled_length))$(printf '─%.0s' $(seq 1 $empty_length))" \
             $progress
     else
         printf "\r[%-${total_length}s] %s\r" \
-            "$(printf '━%.0s' $(seq 1 $filled_length))$(printf '━%.0s' $(seq 1 $empty_length))" \
+            "$(printf '━%.0s' $(seq 1 $filled_length))$(printf '─%.0s' $(seq 1 $empty_length))" \
             "$message"
     fi
 }

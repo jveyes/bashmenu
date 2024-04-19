@@ -8,5 +8,6 @@ cd "$LOCAL_PATH"
 git add .
 git commit -m "$(date +"%Y-%m-%d %H:%M:%S")"
 git push
-ssh "$SERVER" "[ -d '$REMOTE_PATH' ] || mkdir -p '$REMOTE_PATH' && cd '$REMOTE_PATH' && git pull"
+ssh "$SERVER" "cd '$REMOTE_PATH' && git pull"
+#ssh "$SERVER" "[ -d '$REMOTE_PATH' ] || mkdir -p '$REMOTE_PATH' && cd '$REMOTE_PATH' && git pull"
 #ssh "$SERVER" "cd '$REMOTE_PATH' && mkdir '$REMOTE_PATH' && git pull"

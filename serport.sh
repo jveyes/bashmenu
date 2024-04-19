@@ -25,7 +25,7 @@ display_progress_bar() {
     local empty_length=$((total_length - filled_length))
 
     if [ -z "$message" ]; then
-        echo -ne "\r[$(printf '━%.0s' $(seq 1 $filled_length))$(printf '-%.0s' $(seq 1 $empty_length))] $progress% "
+        echo -ne "\r[$(printf '━%.0s' $(seq 1 $filled_length))$(printf '─%.0s' $(seq 1 $empty_length))] $progress% "
     else
         echo -ne "\r[$(printf '━%.0s' $(seq 1 $filled_length))$(printf '─%.0s' $(seq 1 $empty_length))] $message"
     fi

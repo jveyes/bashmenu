@@ -25,19 +25,12 @@ display_progress_bar() {
     local empty_length=$((total_length - filled_length))
 
     if [ -z "$message" ]; then
-        printf "\r[%s%s] %3d%%\r" \
-            "$(printf '━%.0s' $(seq 1 $filled_length))" \
-            "$(printf '━%.0s' $(seq 1 $empty_length))" \
+        printf "\r[%-${total_length}s] %3d%%\r" \
+            "$(printf '━%.0s' $(seq 1 $filled_length))$(printf '━%.0s' $(seq 1 $empty_length))" \
             $progress
     else
-        local message_length=${#message}
-        local remaining_length=$((total_length - message_length))
-        local filled_for_message=$((remaining_length * progress / 100))
-        local empty_for_message=$((remaining_length - filled_for_message))
-
-        printf "\r[%s%s] %s\r" \
-            "$(printf '━%.0s' $(seq 1 $filled_for_message))" \
-            "$(printf '━%.0s' $(seq 1 $empty_for_message))" \
+        printf "\r[%-${total_length}s] %s\r" \
+            "$(printf '━%.0s' $(seq 1 $filled_length))$(printf '━%.0s' $(seq 1 $empty_length))" \
             "$message"
     fi
 }

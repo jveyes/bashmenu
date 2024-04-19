@@ -74,6 +74,7 @@ for i in {1..100}; do
     display_progress_bar $i
     sleep 0.005
 done
+echo " " 
 display_status 32 "Push successful to GitHub!"
 
 # Pull the changes on the remote repository

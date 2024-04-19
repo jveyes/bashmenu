@@ -18,33 +18,16 @@ display_progress_bar2() {
 }
 
 display_progress_bar() {
-    local progress=$1
-    local message="${2:-}"
-    local total_length=40
-    local filled_length=$((total_length * progress / 100))
-    local empty_length=$((total_length - filled_length))
-
-    local filled_color="\e[1;32m" # Bright green
-    local empty_color="\e[0;90m" # Dark gray
-    local reset="\e[0m"
-
-    if [ -z "$message" ]; then
-        printf "\r[%s%s%s%s%s] %3d%%\r" \
-            "$filled_color" \
-            "$(printf '━%.0s' $(seq 1 $filled_length))" \
-            "$empty_color" \
-            "$(printf '━%.0s' $(seq 1 $empty_length))" \
-            "$reset" \
-            $progress
-    else
-        printf "\r[%s%s%s%s%s] %s\r" \
-            "$filled_color" \
-            "$(printf '━%.0s' $(seq 1 $filled_length))" \
-            "$empty_color" \
-            "$(printf '━%.0s' $(seq 1 $empty_length))" \
-            "$reset" \
-            "$message"
-    fi
+local progress=$1
+local message="${2:-}"
+local total_length=40
+local filled_length=$((total_length * progress / 100))
+local empty_length=$((total_length - filled_length))
+if [ -z "$message" ]; then
+echo -ne "\r[$(printf '━%.0s' $(seq 1 $filled_length))$(printf '─%.0s' $(seq 1 $empty_length))] $progress%"
+else
+echo -ne "\r[$(printf '━%.0s' $(seq 1 $filled_length))$(printf '─%.0s' $(seq 1 $empty_length))] $message"
+fi
 }
 
 # Function to display status messages with colors

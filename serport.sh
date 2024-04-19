@@ -39,7 +39,7 @@ display_status 34 "Pushing changes to the GitHub repository..."
 git push
 for i in {1..100}; do
     display_progress_bar $i
-    sleep 0.002
+    sleep 0.006
 done
 display_status 32 "Push successful to GitHub!"
 

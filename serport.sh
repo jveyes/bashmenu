@@ -35,17 +35,23 @@ display_progress_bar() {
         # Adjusted logic for when progress is 100%
         if [ $progress -eq 100 ]; then
             printf "\r[%s%s] %s\r" \
-                "$(printf "█%.0s" $(seq 1 $filled_length))" \
-                "$(printf "░%.0s" $(seq 1 $empty_length))]" \
+                "[" \
+                "$(printf "█%.0s" $(seq 1 $filled_length))$(printf "░%.0s" $(seq 1 $empty_length))]" \
                 "${message:-$progress%}"
         else
             printf "\r[%s%s] %s\r" \
-                "$(printf "█%.0s" $(seq 1 $filled_length))" \
-                "$(printf "░%.0s" $(seq 1 $empty_length))" \
+                "[" \
+                "$(printf "█%.0s" $(seq 1 $filled_length))$(printf "░%.0s" $(seq 1 $empty_length))" \
                 "${message:-$progress%}"
         fi
     fi
 }
+
+
+
+
+
+
 
 
 

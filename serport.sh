@@ -24,19 +24,26 @@ display_progress_bar() {
     local filled_length=$((total_length * progress / 100))
     local empty_length=$((total_length - filled_length))
 
+    local progress_char="${PROGRESS_CHAR:-█}"
+    local empty_char="${EMPTY_CHAR:-░}"
+
     if [ -z "$message" ]; then
         printf "\r[%s%s] %3d%%\r" \
-            "${PROGRESS_CHAR:-█}"$((filled_length)) \
-            "${EMPTY_CHAR:-░}"$((empty_length)) \
+            "${progress_char:0:1}"$((filled_length)) \
+            "${empty_char:0:1}"$((empty_length)) \
             $progress
     else
+        local message_length=${#message}
+        local remaining_length=$((total_length - message_length))
+        local filled_for_message=$((remaining_length * progress / 100))
+        local empty_for_message=$((remaining_length - filled_for_message))
+
         printf "\r[%s%s] %s\r" \
-            "${PROGRESS_CHAR:-█}"$((filled_length)) \
-            "${EMPTY_CHAR:-░}"$((empty_length)) \
+            "${progress_char:0:1}"$((filled_for_message)) \
+            "${empty_char:0:1}"$((empty_for_message)) \
             "$message"
     fi
 }
-
 
 
 # Function to display status messages with colors

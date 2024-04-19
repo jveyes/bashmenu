@@ -48,6 +48,6 @@ display_status 34 "Pulling changes from the GitHub repository..."
 ssh "$SERVER" "cd '$REMOTE_PATH' && git pull"
 for i in {1..100}; do
     display_progress_bar $i
-    sleep 0.02
+    sleep 0.005
 done
 display_status 32 "Pull successful from GitHub!"

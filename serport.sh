@@ -29,26 +29,23 @@ display_progress_bar() {
     # Ensure the progress bar fills the entire line
     if [ $empty_length -eq 0 ]; then
         printf "\r[%s] %s\r" \
-            "$(printf "█%.0s" $(seq 1 $total_length))]" \
+            "$(printf "█%.0s" $(seq 1 $total_length))" \
             "${message:-$progress%}"
     else
         # Adjusted logic for when progress is 100%
         if [ $progress -eq 100 ]; then
             printf "\r[%s%s] %s\r" \
-                "[" \
-                "$(printf "█%.0s" $(seq 1 $filled_length))$(printf "░%.0s" $(seq 1 $empty_length))]" \
+                "$(printf "█%.0s" $(seq 1 $filled_length))" \
+                "$(printf "░%.0s" $(seq 1 $empty_length))]" \
                 "${message:-$progress%}"
         else
             printf "\r[%s%s] %s\r" \
-                "[" \
-                "$(printf "█%.0s" $(seq 1 $filled_length))$(printf "░%.0s" $(seq 1 $empty_length))" \
+                "$(printf "█%.0s" $(seq 1 $filled_length))" \
+                "$(printf "░%.0s" $(seq 1 $empty_length))" \
                 "${message:-$progress%}"
         fi
     fi
 }
-
-
-
 
 
 
@@ -78,7 +75,6 @@ for i in {1..100}; do
     display_progress_bar $i
     sleep 0.005
 done
-echo " " 
 display_status 32 "Push successful to GitHub!"
 
 # Pull the changes on the remote repository

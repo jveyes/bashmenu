@@ -29,7 +29,7 @@ display_progress_bar() {
     # Ensure the progress bar fills the entire line
     if [ $empty_length -eq 0 ]; then
         printf "\r[%s] %s\r" \
-            "$(printf "█%.0s" $(seq 1 $total_length))" \
+            "$(printf "█%.0s" $(seq 1 $total_length))]" \
             "${message:-$progress%}"
     else
         # Adjusted logic for when progress is 100%
@@ -46,7 +46,6 @@ display_progress_bar() {
         fi
     fi
 }
-
 
 
 

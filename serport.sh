@@ -6,7 +6,7 @@ REMOTE_PATH="/home/ubuntu/got/bashmenu"
 LOCAL_PATH="/home/stk/GIT/bashmenu"
 
 # Function to display a progress bar
-display_progress_bar() {
+display_progress_bar2() {
     local progress=$1
     local total_length=40
     local filled_length=$((total_length * progress / 100))
@@ -15,6 +15,14 @@ display_progress_bar() {
     printf "\r[%-${total_length}s] %3d%%  " \
            $(printf "#%.0s" $(seq 1 $filled_length)) \
            $progress
+}
+
+display_progress_bar() {
+    local progress=$1
+    local total_length=40
+    local filled_length=$((total_length * progress / 100))
+    local empty_length=$((total_length - filled_length))
+    echo -ne "\r[$(printf '━%.0s' $(seq 1 $filled_length))$(printf '─%.0s' $(seq 1 $empty_length))] $progress%"
 }
 
 # Function to display status messages with colors

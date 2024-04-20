@@ -47,10 +47,6 @@ display_progress_bar() {
     fi
 }
 
-
-
-
-
 # Function to display status messages with colors
 display_status() {
     local color=$1
@@ -76,7 +72,7 @@ for i in {1..100}; do
     sleep 0.005
 done
 echo " "
-display_status 32 "Push successful to GitHub!"
+display_status 32 "Pushed successful to GitHub!"
 
 # Pull the changes on the remote repository
 display_status 34 "Pulling changes from the GitHub repository..."
@@ -86,4 +82,4 @@ for i in {1..100}; do
     sleep 0.005
 done
 echo " "
-display_status 32 "Pull successful from GitHub!"
+display_status 32 "Pulled successful from GitHub!"

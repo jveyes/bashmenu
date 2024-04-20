@@ -30,7 +30,7 @@ display_progress_bar() {
     if [ $empty_length -eq 0 ]; then
         printf "\r%s %s\r" \
             "$(printf "█%.0s" $(seq 1 $total_length))" \
-            "${message:-$progress%}"
+            "${message:-$progress% }"
     else
         # Adjusted logic for when progress is 100%
         if [ $progress -eq 100 ]; then

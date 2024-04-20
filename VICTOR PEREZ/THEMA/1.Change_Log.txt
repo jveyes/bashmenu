@@ -1,0 +1,550 @@
+-----------------------------------------------------------------------------------------
+Version 3.2.1 - January 09, 2024
+-----------------------------------------------------------------------------------------
+
+- NEW: WordPress 6.4.x Compatibility
++ Full Compatibility with Elementor 3.18.x
++ Full Compatibility with Redux Framework 4.4.x
+- Full Compatibility with WooCommerce 8.4.x
++ UPDATE: Case Theme Core plugin - v1.1.8
++ UPDATE: Slider Revolution plugin - v6.6.20
+
+
+-----------------------------------------------------------------------------------------
+Version 3.2.0 - September 05, 2023
+-----------------------------------------------------------------------------------------
+
++ ADDED: Demo Insurance (Multi Page + One Page)
++ ADDED: Page Title Builder
++ ADDED: New Header Layout
++ ADDED: New Footer Layout
++ ADDED: Counter Widget Style
++ ADDED: Service Carousel Widget Style
++ ADDED: Blog Carousel Widget Style
++ ADDED: Portfolio GridWidget Style
++ ADDED: Testimonial Carousel Widget Style
++ NEW: WordPress 6.3.x Compatibility
++ Full Compatibility with Elementor 3.15.x
++ UPDATE: Slider Revolution plugin - v6.6.16
++ Full Compatibility with WooCommerce 8.0.x
+
+
+-----------------------------------------------------------------------------------------
+Version 3.1.0 - August 02, 2023
+-----------------------------------------------------------------------------------------
+
++ ADDED: Demo SEO (Multi Page + One Page)
++ ADDED: New Header Layout
++ ADDED: New Footer Layout
++ ADDED: Text Effect Widget
++ ADDED: Fancy Box Widget Style
++ ADDED: Service Carousel Widget Style
++ ADDED: Testimonial Carousel Widget Style
++ ADDED: Blog Grid/Carousel Widget Style
++ ADDED: Portfolio Grid/Carousel Widget Style
++ ADDED: Progressbar Widget Style
++ UPDATE: Slider Revolution plugin - v6.6.15
++ FIXED: Bugs
+
+
+-----------------------------------------------------------------------------------------
+Version 3.0.1 - April 09, 2023
+-----------------------------------------------------------------------------------------
+
++ UPDATE: Archive category for Portfolio, Services and Case Studies
++ NEW: WordPress 6.2 Compatibility
++ Full Compatibility with Elementor 3.12.x
++ UPDATE: Slider Revolution plugin - v6.6.12
++ Full Compatibility with WooCommerce 7.5.x
+
+
+-----------------------------------------------------------------------------------------
+Version 3.0.0 - February 03, 2023
+-----------------------------------------------------------------------------------------
+
++ ADDED: Demo Fintech (Multi Page + One Page)
++ ADDED: New Header Layout
++ ADDED: Fancy Box Widget Style
++ ADDED: Service Carousel Widget Style
++ ADDED: Testimonial Carousel Widget Style
++ ADDED: Accordion Widget Style
++ ADDED: Pricing Widget Style
++ ADDED: Blog Grid Widget Style
++ UPDATE: Case Theme Core plugin - v1.1.5
++ FIXED: Bugs
+
+
+-----------------------------------------------------------------------------------------
+Version 2.9.7 - January 08, 2023
+-----------------------------------------------------------------------------------------
+
+- Full Compatibility with Elementor 3.9.x
++ UPDATE: Slider Revolution plugin - v6.6.x
+- Full Compatibility with WooCommerce 7.2.x
++ UPDATE: Case Theme Core plugin - v1.1.4
++ FIXED: Bugs
+
+
+-----------------------------------------------------------------------------------------
+Version 2.9.6 - September 10, 2022
+-----------------------------------------------------------------------------------------
+
++ FIXED: Import demo data
+
+
+-----------------------------------------------------------------------------------------
+Version 2.9.5 - August 26, 2022
+-----------------------------------------------------------------------------------------
+
++ UPDATE: Case Theme Import plugin - v1.0.3
++ FIXED: Replace demo image path in element page builder.
+
+
+-----------------------------------------------------------------------------------------
+Version 2.9.4 - August 01, 2022
+-----------------------------------------------------------------------------------------
+
+- NEW: WordPress 6.0.1 Compatibility
+- Full Compatibility with Elementor 3.8.x
++ UPDATE: Slider Revolution plugin - v6.5.25
+- Full Compatibility with WooCommerce 6.7.x
++ UPDATE: Case Theme Core plugin - v1.1.2
++ FIXED: Bugs
+
+
+-----------------------------------------------------------------------------------------
+Version 2.9.3 - June 08, 2022
+-----------------------------------------------------------------------------------------
+
+- Full Compatibility with WordPress 6.0
+- Full Compatibility with Elementor 3.6.5
++ UPDATE: Slider Revolution plugin - v6.5.24
+
+
+
+-----------------------------------------------------------------------------------------
+Version 2.9.2 - April 12, 2022
+-----------------------------------------------------------------------------------------
+
+- Full Compatibility with WordPress 5.9.3
+- Full Compatibility with Elementor 3.6.2
+- Full Compatibility with WooCommerce 6.3.1
+- Full Compatibility with Redux Framework 4.3.12
++ UPDATE: Slider Revolution plugin - v6.5.19
++ UPDATE: Case Theme Core plugin - v1.1.2
++ FIXED: Bugs
+
+
+-----------------------------------------------------------------------------------------
+Version 2.9.1 - January 26, 2022
+-----------------------------------------------------------------------------------------
+
+- NEW: WordPress 5.9 Compatibility
+- Full Compatibility with Elementor 3.5.x
++ UPDATE: WPBakery Page Builder plugin - v6.8
++ UPDATE: Slider Revolution plugin - v6.5.9
+- Full Compatibility with WooCommerce 6.1.x
++ UPDATE: Case Theme Core plugin - v1.1.0
++ FIXED: Bugs
+
+
+
+-----------------------------------------------------------------------------------------
+Version 2.9.0 - December 08, 2021
+-----------------------------------------------------------------------------------------
+
++ ADDED: Demo Cryptocurrency (Multi Page + One Page)
++ ADDED: New Header Layout
++ ADDED: History Carousel
++ ADDED: Counter Widget Style
++ ADDED: Team Carousel Widget Style
++ ADDED: Tab Widget Style
++ ADDED: Accordion Widget Style
++ UPDATE: Slider Revolution plugin - v6.5.11
+
+
+-----------------------------------------------------------------------------------------
+Version 2.8.0 - November 07, 2021
+-----------------------------------------------------------------------------------------
+
++ ADDED: Demo Business Construction (Multi Page + One Page)
++ ADDED: Demo Business Coach (Multi Page + One Page)
++ ADDED: Header Builder
++ ADDED: Slider Widget
++ ADDED: Portfolio Tab Widget
++ ADDED: Counter Widget Style
++ ADDED: Team Widget Style
++ ADDED: Services Carousel Widget Style
++ ADDED: Testimonials Carousel Widget Style
++ ADDED: Process Widget Style
+
+
+-----------------------------------------------------------------------------------------
+Version 2.7.0 - October 11, 2021
+-----------------------------------------------------------------------------------------
+
++ ADDED: Demo Finance Version 7
++ UPDATE: Slider Revolution plugin - v6.5.9
+
+
+-----------------------------------------------------------------------------------------
+Version 2.6.0 - September 21, 2021
+-----------------------------------------------------------------------------------------
+
++ ADDED: Demo Finance Version 6
++ ADDED: Header Builder
++ ADDED: Pricing Widget Style
++ ADDED: Progressbar Widget Style
++ UPDATE: Slider Revolution plugin - v6.5.7
++ UPDATE: Case Theme Core plugin - v1.0.9
+
+
+-----------------------------------------------------------------------------------------
+Version 2.5.1 - August 25, 2021
+-----------------------------------------------------------------------------------------
+- NEW: WordPress 5.8 Compatibility
+- Full Compatibility with Elementor 3.4.x
+- Full Compatibility with WooCommerce 5.6.0
++ UPDATE: Slider Revolution plugin - v6.5.7
++ UPDATE: Case Theme Core plugin - v1.0.8
++ FIXED: Bugs
+
+-----------------------------------------------------------------------------------------
+Version 2.5.0 - June 06, 2021
+-----------------------------------------------------------------------------------------
++ ADDED: Demo Business Version 4
++ ADDED: Demo Finance Version 5
++ ADDED: Demo Marketing Agency
++ ADDED: Demo Consulting Agency
++ ADDED: New Header Layout
+
+
+
+-----------------------------------------------------------------------------------------
+Version 2.0.1 - May 28, 2021
+-----------------------------------------------------------------------------------------
++ ADDED: Countdown Widget
+- FIXED: Translate category post type name in backend
+- UPDATE: Slider Revolution plugin - v.6.4.11
+
+
+
+-----------------------------------------------------------------------------------------
+Version 2.0 - April 03, 2021
+-----------------------------------------------------------------------------------------
++ ADDED: Demo Finance Version 4
++ ADDED: Sign In Page
++ ADDED: Sign Up Page
++ ADDED: New Header Layout
++ ADDED: Box Info Widget
++ ADDED: Services Carousel Widget Style
++ ADDED: Accordion Widget Style
++ ADDED: Contact Form 7 Widget  Style
++ ADDED: Counter Widget Style
++ ADDED: Fancy Box Widget Style
++ ADDED: Pricing Widget Style
++ ADDED: Case Studies Carousel Widget Style
++ ADDED: Blog Carousel Widget Style
+- UPDATE: Slider Revolution plugin - v.6.4.6
+- FIXED: Mobile Menu Click Show Submenu
+
+
+-----------------------------------------------------------------------------------------
+Version 1.2.5 - February 19, 2021
+-----------------------------------------------------------------------------------------
++ ADDED: Demo Digital Marketing
++ ADDED: New Header Layout
++ ADDED: Testimonials Carousel Widget Style
++ ADDED: Team Carousel Widget Style
++ ADDED: Video Player Widget Style
++ ADDED: Contact Form 7 Widget  Style
++ ADDED: Counter Widget Style
++ ADDED: Fancy Box Widget Style
++ ADDED: Pricing Widget Style
++ ADDED: Tabs Widget Style
++ ADDED: Progress Bar Widget Style
++ ADDED: Blog Carousel Widget Style
+- UPDATE: Slider Revolution plugin - v.6.3.9
++ FIXED: Bugs
+
+
+-----------------------------------------------------------------------------------------
+Version 1.2.4 - January 05, 2021
+-----------------------------------------------------------------------------------------
++ ADDED: Demo Finance 3
++ ADDED: New Header Layout
++ ADDED: Service Carousel Widget Style
++ ADDED: Testimonials Carousel Widget Style
++ ADDED: Team Carousel Widget Style
++ ADDED: Video Player Widget Style
++ ADDED: Contact Form 7 Widget  Style
++ ADDED: Counter Widget Style
+- UPDATE: Slider Revolution plugin - v.6.3.5
++ FIXED: Bugs
+
+
+-----------------------------------------------------------------------------------------
+Version 1.2.3 - December 10, 2020
+-----------------------------------------------------------------------------------------
++ ADDED: Demo Digital Agency
++ ADDED: New Header Layout
++ ADDED: Service Carousel Widget Style
++ ADDED: Testimonials Carousel Widget Style
++ ADDED: Blog Carousel Widget Style
++ ADDED: Contact Form 7 Widget  Style
++ ADDED: Pricing Widget Style
++ ADDED: Counter Widget Style
++ ADDED: Newsletter Widget Style
+- UPDATE: Slider Revolution plugin - v.6.3.2
+- Compatibility Wordpress 5.6
+- Full Compatibility with WooCommerce 4.8
++ FIXED: Bugs
+
+
+-----------------------------------------------------------------------------------------
+Version 1.2.2 - October 12, 2020
+-----------------------------------------------------------------------------------------
++ ADDED: Demo Immigration
++ ADDED: New Header Layout
++ ADDED: Call To Action Widget
++ ADDED: Service Grid Widget Style
++ ADDED: Testimonials Carousel Widget Style
++ ADDED: Blog Carousel Widget Style
++ ADDED: Contact Form 7 Style
++ ADDED: Client Carousel Style
++ ADDED: Fancy Box Widget Layout
++ ADDED: Point Widget
++ ADDED: Courses Carousel Widget
+- UPDATE: Slider Revolution plugin - v.6.2.23
++ FIXED: Bugs
+
+
+-----------------------------------------------------------------------------------------
+Version 1.2.1 - August 17, 2020
+-----------------------------------------------------------------------------------------
++ ADDED: Demo Consulting Agency
++ ADDED: New Header Layout
++ ADDED: Service Grid Widget Layout
++ ADDED: Testimonials Carousel Widget Layout
++ ADDED: Team Carousel Widget Layout
++ ADDED: Blog Carousel Widget Layout
+
+
+-----------------------------------------------------------------------------------------
+Version 1.2.0 - August 12, 2020
+-----------------------------------------------------------------------------------------
++ ADDED: Demo Consulting Business 3
++ ADDED: New Header Layout
++ ADDED: Service Carousel Widget Layout
++ ADDED: Testimonials Carousel Widget Layout
++ ADDED: Team Carousel Widget Layout
++ ADDED: Blog Carousel Widget Layout
+
+
+-----------------------------------------------------------------------------------------
+Version 1.1.9 - July 31, 2020
+-----------------------------------------------------------------------------------------
+
++ FIXED: Updated Redux Framework 4.x error message "Undefined index: opt_name" Please update the Case Theme Core plugin.
++ FIXED: Changing the theme color in the Theme Options is not applied.
+
+
+-----------------------------------------------------------------------------------------
+Version 1.1.8 - July 26, 2020
+-----------------------------------------------------------------------------------------
+
++ ADDED: 20+ Demo One Page
++ FIXED: Install Demo Data
+
+
+-----------------------------------------------------------------------------------------
+Version 1.1.7 - July 22, 2020
+-----------------------------------------------------------------------------------------
+
++ ADDED: Demo Software Business
++ ADDED: New Header Layout
++ ADDED: Service Grid Widget Layout
++ ADDED: Testimonials Carousel Widget Layout
++ ADDED: Portfolio Carousel Widget Layout
+
+
+-----------------------------------------------------------------------------------------
+Version 1.1.6 - July 18, 2020
+-----------------------------------------------------------------------------------------
+
++ ADDED: Demo Consulting (Dark)
++ ADDED: New Header Layout
++ ADDED: Service Grid Widget Layout
++ ADDED: Testimonials Carousel Widget Layout
++ ADDED: Blog Carousel Widget Layout
++ ADDED: Portfolio Carousel Widget Layout
+- UPDATE: Slider Revolution plugin - v.6.2.17
+
+
+-----------------------------------------------------------------------------------------
+Version 1.1.5 - June 25, 2020
+-----------------------------------------------------------------------------------------
+
++ ADDED: Demo Finance 2
++ ADDED: Demo Finance RTL
++ ADDED: bbPress Forums
++ ADDED: New Header Layout
++ ADDED: Service Carousel Widget Layout
++ ADDED: Team Carousel Widget Layout
++ ADDED: Testimonials Carousel Widget Layout
++ ADDED: Blog Carousel Widget Layout
++ ADDED: Portfolio Carousel Widget Layout
+- UPDATE: Slider Revolution plugin - v.6.2.14
+
+
+
+-----------------------------------------------------------------------------------------
+Version 1.1.4 - May 29, 2020
+-----------------------------------------------------------------------------------------
+
++ ADDED: Demo Business 2
++ ADDED: New Header Layout
++ ADDED: Cover Boxes Widget
++ ADDED: Team Carousel Widget Layout
++ ADDED: Progress Bar Widget Layout
++ ADDED: Tab Banner Widget Layout
++ ADDED: Testimonials Carousel Widget Layout
++ ADDED: Blog Carousel Widget Layout
+- UPDATE: Slider Revolution plugin - v.6.2.10
+
+
+-----------------------------------------------------------------------------------------
+Version 1.1.3 - May 14, 2020
+-----------------------------------------------------------------------------------------
+
++ ADDED: Demo Coronavirus
++ ADDED: New Header Layout
++ ADDED: New Element
+- UPDATE: Slider Revolution plugin - v.6.2.6
+
+
+-----------------------------------------------------------------------------------------
+Version 1.1.2 - May 11, 2020
+-----------------------------------------------------------------------------------------
+
++ ADDED: Demo Corporate 3
++ ADDED: New Header Layout
++ ADDED: New Element
++ ADDED: Mailchimp Widget
++ FIXED: Bugs
+- UPDATE: Slider Revolution plugin - v.6.2.5
+
+
+-----------------------------------------------------------------------------------------
+Version 1.1.1 - May 06, 2020
+-----------------------------------------------------------------------------------------
+
+- UPDATE: Slider Revolution plugin - v.6.2.4
+
+
+-----------------------------------------------------------------------------------------
+Version 1.1.0 - April 23, 2020
+-----------------------------------------------------------------------------------------
+
++ ADDED: Demo Corporate 2
++ ADDED: New Header Layout
++ ADDED: New Element
++ ADDED: Mega Menus
++ FIXED: Bugs
+
+
+-----------------------------------------------------------------------------------------
+Version 1.0.9 - March 27, 2020
+-----------------------------------------------------------------------------------------
+
++ ADDED: Demo Corporate 1
++ ADDED: New Header Layout
++ ADDED: New Element
++ FIXED: Bugs
+
+
+-----------------------------------------------------------------------------------------
+Version 1.0.8 - March 21, 2020
+-----------------------------------------------------------------------------------------
+
++ ADDED: Demo Insurance
++ ADDED: New Header Layout
++ ADDED: New Element
+- UPDATE: Slider Revolution plugin - v.6.2.2
+
+
+-----------------------------------------------------------------------------------------
+Version 1.0.7 - February 26, 2020
+-----------------------------------------------------------------------------------------
+
++ ADDED: Demo Medical
++ ADDED: New Header Layout
++ ADDED: New Element
+- UPDATE: Slider Revolution plugin - v.6.2.1
+
+
+-----------------------------------------------------------------------------------------
+Version 1.0.6 - February 21, 2020
+-----------------------------------------------------------------------------------------
+
++ ADDED: Demo Marketing
++ ADDED: New Header Layout
++ ADDED: New Element
+
+
+-----------------------------------------------------------------------------------------
+Version 1.0.5 - February 16, 2020
+-----------------------------------------------------------------------------------------
+
++ ADDED: Demo Life Coach
++ ADDED: New Header Layout
++ ADDED: New Element
++ ADDED: Mouse Move Effect
++ ADDED: Newsletter Form Popup
+
+
+-----------------------------------------------------------------------------------------
+Version 1.0.4 - February 11, 2020
+-----------------------------------------------------------------------------------------
+
++ ADDED: Demo Human Resource
++ ADDED: New Header Layout
++ ADDED: New Footer Layout
++ ADDED: New Element
+
+
+-----------------------------------------------------------------------------------------
+Version 1.0.3 - February 10, 2020
+-----------------------------------------------------------------------------------------
+
++ ADDED: About Us Page (Version 2, Version 3, Version 4)
++ ADDED: Our Team Page (Version 2, Version 3, Version 4)
++ ADDED: Testimonials Page (Version 2, Version 3, Version 4)
++ ADDED: Contact Page (Version 2, Version 3, Version 4)
++ ADDED: Pricing Page (Version 2)
+
+
+-----------------------------------------------------------------------------------------
+Version 1.0.2 - February 03, 2020
+-----------------------------------------------------------------------------------------
+
++ ADDED: Demo Tax Consultiong
++ ADDED: New Header
++ ADDED: New Element
++ FIXED: Bugs
+
+
+-----------------------------------------------------------------------------------------
+Version 1.0.1 - January 23, 2020
+-----------------------------------------------------------------------------------------
+
++ ADDED: Demo IT Solution
++ ADDED: New Header
++ ADDED: New Element
+
+
+-----------------------------------------------------------------------------------------
+Version 1.0.0 - January 07, 2020
+-----------------------------------------------------------------------------------------
+
+- Initial release

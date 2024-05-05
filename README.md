@@ -84,25 +84,25 @@ This Bash script provides a simple interactive menu with three customizable comm
 
 In ANSI escape codes, you can use special sequences to add color to text in the terminal. Here's a quick reference for some common colors:
 
-- **Black:** `\e[30m`
-- **Red:** `\e[31m`
-- **Green:** `\e[32m`
-- **Yellow:** `\e[33m`
-- **Blue:** `\e[34m`
-- **Magenta:** `\e[35m`
-- **Cyan:** `\e[36m`
-- **White:** `\e[37m`
+- ⚫️ **Black:** `\e[30m`
+- 🔴 **Red:** `\e[31m`
+- 🟢 **Green:** `\e[32m`
+- 🟡 **Yellow:** `\e[33m`
+- 🔵 **Blue:** `\e[34m`
+- 🟣 **Magenta:** `\e[35m`
+- 🔵 **Cyan:** `\e[36m`
+- ⚪️ **White:** `\e[37m`
 
 For brighter variations, you can use:
 
-- **Bright Black (Gray):** `\e[90m`
-- **Bright Red:** `\e[91m`
-- **Bright Green:** `\e[92m`
-- **Bright Yellow:** `\e[93m`
-- **Bright Blue:** `\e[94m`
-- **Bright Magenta:** `\e[95m`
-- **Bright Cyan:** `\e[96m`
-- **Bright White:** `\e[97m`
+- ⚫ **Bright Black (Gray):** `\e[90m`
+- 🔴 **Bright Red:** `\e[91m`
+- 🟢 **Bright Green:** `\e[92m`
+- 🟡 **Bright Yellow:** `\e[93m`
+- 🔵 **Bright Blue:** `\e[94m`
+- 🟣 **Bright Magenta:** `\e[95m`
+- 🔵 **Bright Cyan:** `\e[96m`
+- ⚪ **Bright White:** `\e[97m`
 
 ## Usage
 
